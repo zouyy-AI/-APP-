@@ -40,7 +40,6 @@ void HardFault_Handler_C(uint32_t *stack_frame)
     uint32_t lr = stack_frame[5];      /* 链接寄存器 LR，返回地址 */
     uint32_t pc = stack_frame[6];      /* 程序计数器 PC，崩溃指令地址 */
     uint32_t psr = stack_frame[7];     /* 程序状态寄存器 PSR */
-
     /* SCB 错误状态寄存器，用于判断具体故障类型 */
     uint32_t cfsr = SCB->CFSR;         /* 综合故障状态寄存器 */
     uint32_t hfsr = SCB->HFSR;         /* HardFault 状态寄存器 */
