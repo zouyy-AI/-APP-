@@ -1,8 +1,8 @@
 .\out\heap_4.o: APP\FreeRTOS\portable\MemMang\heap_4.c
 .\out\heap_4.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\out\heap_4.o: .\APP\FreeRTOS\include\FreeRTOS.h
-.\out\heap_4.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\out\heap_4.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\heap_4.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\out\heap_4.o: .\APP\FreeRTOSConfig.h
 .\out\heap_4.o: .\APP\FreeRTOS\include\projdefs.h
 .\out\heap_4.o: .\APP\FreeRTOS\include\portable.h

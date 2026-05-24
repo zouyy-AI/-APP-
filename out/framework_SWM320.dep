@@ -2,10 +2,10 @@ Dependencies for Project 'framework', Target 'SWM320': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (.\APP\FreeRTOS\list.c)(0x5744BE56)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\list.o --omf_browse .\out\list.crf --depend .\out\list.d)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
-I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -15,10 +15,10 @@ I (.\APP\FreeRTOS\include\list.h)(0x5744BE56)
 F (.\APP\FreeRTOS\queue.c)(0x5744BE56)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\queue.o --omf_browse .\out\queue.crf --depend .\out\queue.d)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
-I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -27,13 +27,13 @@ I (.\APP\FreeRTOS\include\mpu_wrappers.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\task.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\list.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\queue.h)(0x5744BE56)
-F (.\APP\FreeRTOS\tasks.c)(0x5744BE56)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\tasks.o --omf_browse .\out\tasks.crf --depend .\out\tasks.d)
+F (.\APP\FreeRTOS\tasks.c)(0x6A12BFDC)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\tasks.o --omf_browse .\out\tasks.crf --depend .\out\tasks.d)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
-I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -43,12 +43,13 @@ I (.\APP\FreeRTOS\include\task.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\list.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\timers.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\StackMacros.h)(0x5744BE56)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 F (.\APP\FreeRTOS\timers.c)(0x5744BE56)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\timers.o --omf_browse .\out\timers.crf --depend .\out\timers.d)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
-I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -59,10 +60,10 @@ I (.\APP\FreeRTOS\include\list.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\queue.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\timers.h)(0x5744BE56)
 F (.\APP\FreeRTOS\croutine.c)(0x5744BE56)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\croutine.o --omf_browse .\out\croutine.crf --depend .\out\croutine.d)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
-I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -72,10 +73,10 @@ I (.\APP\FreeRTOS\include\task.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\list.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\croutine.h)(0x5744BE56)
 F (.\APP\FreeRTOS\portable\RVDS\ARM_CM3\port.c)(0x5744BE56)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\port.o --omf_browse .\out\port.crf --depend .\out\port.d)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
-I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -85,10 +86,10 @@ I (.\APP\FreeRTOS\include\task.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\list.h)(0x5744BE56)
 F (.\APP\FreeRTOS\portable\MemMang\heap_4.c)(0x5744BE56)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\heap_4.o --omf_browse .\out\heap_4.crf --depend .\out\heap_4.d)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
-I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -276,7 +277,7 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-F (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_uart.c)(0x65781AFA)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\swm320_uart.o --omf_browse .\out\swm320_uart.crf --depend .\out\swm320_uart.d)
+F (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_uart.c)(0x6A12C8BC)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\swm320_uart.o --omf_browse .\out\swm320_uart.crf --depend .\out\swm320_uart.d)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x65700E00)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
@@ -638,7 +639,7 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5AB
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
 F (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\startup\arm\startup_SWM320.s)(0x69DE1C78)(--cpu Cortex-M4 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport--pd "__UVISION_VERSION SETA 543"--list .\out\startup_swm320.lst --xref -o .\out\startup_swm320.o --depend .\out\startup_swm320.d)
-F (.\app\main.c)(0x6A0B200C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+F (.\app\main.c)(0x6A0BF283)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x65700E00)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
@@ -668,9 +669,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -694,7 +695,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
 I (.\APP\led_board\led_board.h)(0x695B9AF3)
@@ -702,7 +703,7 @@ I (.\APP\hlw8012\hlw8012.h)(0x695E5A59)
 I (.\APP\message\message.h)(0x69FF2C69)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (.\APP\cmdline\cmdline.h)(0x69CBDF58)
-F (.\APP\task\crtl_task.c)(0x69CE5D9F)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\crtl_task.o --omf_browse .\out\crtl_task.crf --depend .\out\crtl_task.d)
+F (.\APP\task\crtl_task.c)(0x6A12EBEF)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\crtl_task.o --omf_browse .\out\crtl_task.crf --depend .\out\crtl_task.d)
 I (APP\task\mytask.h)(0x69C54C5B)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x65700E00)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
@@ -733,9 +734,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -759,7 +760,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
 I (.\APP\led_board\led_board.h)(0x695B9AF3)
@@ -768,7 +769,7 @@ I (.\APP\message\message.h)(0x69FF2C69)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (.\APP\cmdline\cmdline.h)(0x69CBDF58)
 I (.\APP\work\work.h)(0x6A0988AE)
-F (.\APP\task\listen_task.c)(0x69C54BC9)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\listen_task.o --omf_browse .\out\listen_task.crf --depend .\out\listen_task.d)
+F (.\APP\task\listen_task.c)(0x6A12ED3E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\listen_task.o --omf_browse .\out\listen_task.crf --depend .\out\listen_task.d)
 I (APP\task\mytask.h)(0x69C54C5B)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x65700E00)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
@@ -799,9 +800,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -825,7 +826,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
 I (.\APP\led_board\led_board.h)(0x695B9AF3)
@@ -834,7 +835,7 @@ I (.\APP\message\message.h)(0x69FF2C69)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (.\APP\cmdline\cmdline.h)(0x69CBDF58)
 I (.\APP\work\work.h)(0x6A0988AE)
-F (.\APP\task\start_task.c)(0x69E8B892)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\start_task.o --omf_browse .\out\start_task.crf --depend .\out\start_task.d)
+F (.\APP\task\start_task.c)(0x6A12ED77)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\start_task.o --omf_browse .\out\start_task.crf --depend .\out\start_task.d)
 I (.\framework\framework.h)(0x69B00D48)
 I (.\APP\task\mytask.h)(0x69C54C5B)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x65700E00)
@@ -866,9 +867,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -896,10 +897,10 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\work\work.h)(0x6A0988AE)
-F (.\APP\task\host_task.c)(0x69C54BC9)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\host_task.o --omf_browse .\out\host_task.crf --depend .\out\host_task.d)
+F (.\APP\task\host_task.c)(0x6A12BFF4)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\host_task.o --omf_browse .\out\host_task.crf --depend .\out\host_task.d)
 I (APP\task\mytask.h)(0x69C54C5B)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x65700E00)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
@@ -930,9 +931,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -956,7 +957,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
 I (.\APP\led_board\led_board.h)(0x695B9AF3)
@@ -997,9 +998,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1027,7 +1028,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\APP\work\work.h)(0x6A0988AE)()
 F (.\APP\work\work_data.c)(0x6A097120)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\work_data.o --omf_browse .\out\work_data.crf --depend .\out\work_data.d)
@@ -1063,9 +1064,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1093,7 +1094,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\APP\work\work_fuse.c)(0x69B16606)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\work_fuse.o --omf_browse .\out\work_fuse.crf --depend .\out\work_fuse.d)
 I (APP\work\work.h)(0x6A0988AE)
@@ -1128,9 +1129,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1158,7 +1159,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\APP\work\work _deal_order.c)(0x69C53F99)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o ".\out\work _deal_order.o" --omf_browse ".\out\work _deal_order.crf" --depend ".\out\work _deal_order.d")
 I (APP\work\work.h)(0x6A0988AE)
@@ -1193,9 +1194,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1223,7 +1224,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\APP\work\work_cycle_reboot.c)(0x6A096695)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\work_cycle_reboot.o --omf_browse .\out\work_cycle_reboot.crf --depend .\out\work_cycle_reboot.d)
 I (APP\work\work.h)(0x6A0988AE)
@@ -1258,9 +1259,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1288,7 +1289,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\APP\work\work_sock_ctrl.c)(0x69CD1863)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\work_sock_ctrl.o --omf_browse .\out\work_sock_ctrl.crf --depend .\out\work_sock_ctrl.d)
 I (APP\work\work.h)(0x6A0988AE)
@@ -1323,9 +1324,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1353,7 +1354,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\APP\work\work_debug.c)(0x6A098906)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\work_debug.o --omf_browse .\out\work_debug.crf --depend .\out\work_debug.d)
 I (APP\work\work.h)(0x6A0988AE)
@@ -1388,9 +1389,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1418,7 +1419,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\APP\cmdline\cmdline.c)(0x69CBDF58)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\cmdline.o --omf_browse .\out\cmdline.crf --depend .\out\cmdline.d)
 I (APP\cmdline\cmdline.h)(0x69CBDF58)
@@ -1453,9 +1454,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1483,7 +1484,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\APP\cmdline\cmdline.h)(0x69CBDF58)()
 F (.\APP\led_board\led_board.c)(0x69B008D3)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\led_board.o --omf_browse .\out\led_board.crf --depend .\out\led_board.d)
@@ -1519,9 +1520,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1549,7 +1550,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\APP\led_board\led_board.h)(0x695B9AF3)()
 F (.\APP\hlw8012\hlw8012.h)(0x695E5A59)()
@@ -1586,9 +1587,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1616,7 +1617,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\driver\fk_drv_gpio.c)(0x69316600)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fk_drv_gpio.o --omf_browse .\out\fk_drv_gpio.crf --depend .\out\fk_drv_gpio.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -1650,9 +1651,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1680,7 +1681,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\driver\fk_drv_uart.c)(0x693A8519)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fk_drv_uart.o --omf_browse .\out\fk_drv_uart.crf --depend .\out\fk_drv_uart.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -1714,9 +1715,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1744,7 +1745,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\driver\fk_drv_rtc.c)(0x694124FC)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fk_drv_rtc.o --omf_browse .\out\fk_drv_rtc.crf --depend .\out\fk_drv_rtc.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -1778,9 +1779,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1808,7 +1809,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\driver\fk_drv_wdg.c)(0x69415412)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fk_drv_wdg.o --omf_browse .\out\fk_drv_wdg.crf --depend .\out\fk_drv_wdg.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -1842,9 +1843,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1872,7 +1873,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\driver_port\fk_drvp_gpio.c)(0x695249F6)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fk_drvp_gpio.o --omf_browse .\out\fk_drvp_gpio.crf --depend .\out\fk_drvp_gpio.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -1906,9 +1907,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -1936,7 +1937,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\driver_port\fk_drvp_uart.c)(0x694FC0FB)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fk_drvp_uart.o --omf_browse .\out\fk_drvp_uart.crf --depend .\out\fk_drvp_uart.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -1970,9 +1971,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2000,7 +2001,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\driver_port\fk_drvp_rtc.c)(0x69412C97)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fk_drvp_rtc.o --omf_browse .\out\fk_drvp_rtc.crf --depend .\out\fk_drvp_rtc.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -2034,9 +2035,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2064,7 +2065,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\driver_port\fk_drvp_wdg.c)(0x6941538F)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fk_drvp_wdg.o --omf_browse .\out\fk_drvp_wdg.crf --depend .\out\fk_drvp_wdg.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -2098,9 +2099,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2128,7 +2129,71 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
+I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
+F (.\framework\driver_port\fk_drvp_time.c)(0x6A12E7AA)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fk_drvp_time.o --omf_browse .\out\fk_drvp_time.crf --depend .\out\fk_drvp_time.d)
+I (.\framework\framework.h)(0x69B00D48)
+I (.\APP\task\mytask.h)(0x69C54C5B)
+I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x65700E00)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\system_SWM320.h)(0x5B3B5414)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CA)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x6576A1EA)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CA)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5EB3B5A6)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x634FB5D4)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x635219F2)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5E5E0BBA)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E0)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5B5977F4)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CA)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x60190A58)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_can.h)(0x63521354)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5F0814C0)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x6943BA50)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CA)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x655D6654)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5DDDEFE8)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
+I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
+I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
+I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
+I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
+I (.\APP\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h)(0x5744BE56)
+I (.\APP\FreeRTOS\include\mpu_wrappers.h)(0x5744BE56)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (.\APP\FreeRTOS\include\task.h)(0x5744BE56)
+I (.\APP\FreeRTOS\include\list.h)(0x5744BE56)
+I (.\APP\FreeRTOS\include\queue.h)(0x5744BE56)
+I (.\APP\FreeRTOS\include\semphr.h)(0x5744BE56)
+I (.\APP\network\network.h)(0x69B01429)
+I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
+I (.\APP\led_board\led_board.h)(0x695B9AF3)
+I (.\APP\hlw8012\hlw8012.h)(0x695E5A59)
+I (.\APP\message\message.h)(0x69FF2C69)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (.\APP\cmdline\cmdline.h)(0x69CBDF58)
+I (.\framework\fk_typedef.h)(0x69720FC0)
+I (.\framework\./lib_utc/utc.h)(0x69C53479)
+I (.\framework\./lib_hc595/lib_hc595.h)(0x695A4A3F)
+I (.\framework\./lib_stropt/stropt.h)(0x69524CA4)
+I (.\framework\./lib_loopbuf/loopbuf.h)(0x693A7E7C)
+I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
+I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
+I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
+I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\lib_loopbuf\loopbuf.c)(0x694FE260)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\loopbuf.o --omf_browse .\out\loopbuf.crf --depend .\out\loopbuf.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -2162,9 +2227,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2192,7 +2257,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\lib_utc\utc.c)(0x69CE5E34)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\utc.o --omf_browse .\out\utc.crf --depend .\out\utc.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -2226,9 +2291,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2256,7 +2321,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\lib_fal\fal\src\fal.c)(0x681D08C8)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\fal.o --omf_browse .\out\fal.crf --depend .\out\fal.d)
 I (framework\lib_fal\fal\src\../inc/fal.h)(0x6943BAE2)
@@ -2322,9 +2387,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2352,7 +2417,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\lib_stropt\stropt.c)(0x69524CA4)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\stropt.o --omf_browse .\out\stropt.crf --depend .\out\stropt.d)
 I (.\framework\framework.h)(0x69B00D48)
@@ -2386,9 +2451,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2416,7 +2481,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\lib_stropt\stropt.h)(0x69524CA4)()
 F (.\framework\lib_hc595\lib_hc595.c)(0x695A4B7D)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\lib_hc595.o --omf_browse .\out\lib_hc595.crf --depend .\out\lib_hc595.d)
@@ -2451,9 +2516,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2481,7 +2546,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 F (.\framework\lib_hc595\lib_hc595.h)(0x695A4A3F)()
 F (.\APP\network\network.c)(0x6A0852F0)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\network.o --omf_browse .\out\network.crf --depend .\out\network.d)
@@ -2517,9 +2582,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2546,7 +2611,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (APP\network\./air7xx/air7xx.h)(0x694A5444)
 I (.\APP\work\work.h)(0x6A0988AE)
@@ -2584,9 +2649,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2612,7 +2677,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
 F (.\APP\network\air7xx\air7xx.h)(0x694A5444)()
@@ -2649,9 +2714,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2677,7 +2742,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
 F (.\APP\network\air7xx\air7xx_work_connect_serv.c)(0x69B01429)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\air7xx_work_connect_serv.o --omf_browse .\out\air7xx_work_connect_serv.crf --depend .\out\air7xx_work_connect_serv.d)
@@ -2713,9 +2778,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2741,7 +2806,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
 F (.\APP\network\air7xx\air7xx_work_init_dev.c)(0x6A0B200C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\air7xx_work_init_dev.o --omf_browse .\out\air7xx_work_init_dev.crf --depend .\out\air7xx_work_init_dev.d)
@@ -2777,9 +2842,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2805,7 +2870,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
 F (.\APP\network\air7xx\air7xx_work_rst_dev.c)(0x69C54D41)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\air7xx_work_rst_dev.o --omf_browse .\out\air7xx_work_rst_dev.crf --depend .\out\air7xx_work_rst_dev.d)
@@ -2841,9 +2906,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2869,7 +2934,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (.\APP\network\./air7xx/air7xx.h)(0x694A5444)
 F (.\APP\message\message.c)(0x69CE574E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I .\APP -I .\APP\FreeRTOS\include -I .\APP\FreeRTOS\portable\RVDS\ARM_CM3 -I .\framework -I .\APP\task -I .\APP\work -I .\APP\network -I .\APP\cmdline -I .\APP\led_board -I .\APP\hlw8012 -I .\APP\message-IC:\Users\Administrator\AppData\Local\Arm\Packs\Synwit\SWM32_DFP\1.8.4\CSL\SWM320\CMSIS\DeviceSupport-D__UVISION_VERSION="543"-o .\out\message.o --omf_browse .\out\message.crf --depend .\out\message.d)
@@ -2905,9 +2970,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2933,7 +2998,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (.\APP\cmdline\cmdline.h)(0x69CBDF58)
@@ -2971,9 +3036,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -2999,7 +3064,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (.\APP\cmdline\cmdline.h)(0x69CBDF58)
@@ -3036,9 +3101,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -3064,7 +3129,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (.\APP\cmdline\cmdline.h)(0x69CBDF58)
@@ -3102,9 +3167,9 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5D
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CA)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x694107F7)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x69CE53CC)
+I (.\APP\FreeRTOS\include\FreeRTOS.h)(0x6A12D047)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
-I (.\APP\FreeRTOSConfig.h)(0x694E180B)
+I (.\APP\FreeRTOSConfig.h)(0x6A12E897)
 I (.\APP\FreeRTOS\include\projdefs.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\portable.h)(0x5744BE56)
 I (.\APP\FreeRTOS\include\deprecated_definitions.h)(0x5744BE56)
@@ -3130,7 +3195,7 @@ I (.\framework\./lib_fal/fal/inc/fal.h)(0x6943BAE2)
 I (.\framework\./lib_fal/fal/inc/../../fal_port/fal_cfg.h)(0x69DD0437)
 I (.\framework\./lib_fal/fal/inc/fal_def.h)(0x6943BAE2)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x5E8E3CC2)
-I (.\framework\./driver_port/fk_drvp_typedef.h)(0x694152FF)
+I (.\framework\./driver_port/fk_drvp_typedef.h)(0x6A12ED3E)
 I (.\framework\./driver/fk_drv_typedef.h)(0x69415455)
 I (C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
 I (.\APP\cmdline\cmdline.h)(0x69CBDF58)

@@ -99,5 +99,12 @@ typedef struct{
     void (*stop)(void);
 }drvp_wdt_t;
 
+typedef struct{
+	void (*init)(uint32_t mode, uint32_t period);
+	void (*start)(void);
+	void (*stop)(void);
+	
+}drvp_time_t;
 
+extern drvp_time_t *drv_time;
 

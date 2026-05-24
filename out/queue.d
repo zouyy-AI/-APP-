@@ -2,8 +2,8 @@
 .\out\queue.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\out\queue.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\out\queue.o: .\APP\FreeRTOS\include\FreeRTOS.h
-.\out\queue.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\out\queue.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\queue.o: C:\Users\Administrator\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\out\queue.o: .\APP\FreeRTOSConfig.h
 .\out\queue.o: .\APP\FreeRTOS\include\projdefs.h
 .\out\queue.o: .\APP\FreeRTOS\include\portable.h

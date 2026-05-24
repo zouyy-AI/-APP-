@@ -707,6 +707,11 @@
               <FileType>1</FileType>
               <FilePath>.\framework\driver_port\fk_drvp_wdg.c</FilePath>
             </File>
+            <File>
+              <FileName>fk_drvp_time.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\framework\driver_port\fk_drvp_time.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

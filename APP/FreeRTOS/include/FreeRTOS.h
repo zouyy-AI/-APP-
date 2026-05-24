@@ -70,6 +70,12 @@
 #ifndef INC_FREERTOS_H
 #define INC_FREERTOS_H
 
+#include <stdint.h>
+
+extern volatile uint32_t CPU_RunTime;
+ 
+#define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS()     (CPU_RunTime = 0ul)
+#define portGET_RUN_TIME_COUNTER_VALUE()             CPU_RunTime
 /*
  * Include the generic headers required for the FreeRTOS port being used.
  */
@@ -659,7 +665,7 @@ extern "C" {
 #endif
 
 #ifndef configGENERATE_RUN_TIME_STATS
-	#define configGENERATE_RUN_TIME_STATS 0
+	#define configGENERATE_RUN_TIME_STATS 1
 #endif
 
 #if ( configGENERATE_RUN_TIME_STATS == 1 )
@@ -733,7 +739,7 @@ extern "C" {
 #endif
 
 #ifndef configUSE_STATS_FORMATTING_FUNCTIONS
-	#define configUSE_STATS_FORMATTING_FUNCTIONS 0
+	#define configUSE_STATS_FORMATTING_FUNCTIONS 1
 #endif
 
 #ifndef portASSERT_IF_INTERRUPT_PRIORITY_INVALID

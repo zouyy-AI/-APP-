@@ -67,7 +67,7 @@ void start_task(void* arg)
     {
         network_entry(); 
 		
-        vTaskDelay(10);
+        vTaskDelay(1);
         
     }
 }

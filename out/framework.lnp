@@ -48,6 +48,7 @@
 ".\out\fk_drvp_uart.o"
 ".\out\fk_drvp_rtc.o"
 ".\out\fk_drvp_wdg.o"
+".\out\fk_drvp_time.o"
 ".\out\loopbuf.o"
 ".\out\utc.o"
 ".\out\fal.o"

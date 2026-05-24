@@ -13,6 +13,8 @@ void host_task(void* arg)
 //        UBaseType_t valu = uxTaskGetStackHighWaterMark(host_task_Handler);
 //        myprintf("%s,%d\r\n",__func__,valu);
         vTaskDelay(5);
+        
+        
     }
 }
 void host_task_create(void)

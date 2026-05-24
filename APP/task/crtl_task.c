@@ -24,5 +24,5 @@ void crtl_task(void* arg)
 void crtl_task_create(void)
 {
     myprintf("%s\r\n",__func__); 
-    xTaskCreate(crtl_task,(const char *)"crtl_task", 1024, NULL, 2, &crtl_task_Handler);
+    xTaskCreate(crtl_task,(const char *)"crtl_task", 1024, NULL, 3, &crtl_task_Handler);
 }
